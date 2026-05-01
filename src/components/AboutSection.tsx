@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { MapPin, Phone, Instagram } from 'lucide-react'
+import { MapPin, Phone } from 'lucide-react'
 import { InstagramIcon } from './icons'
 
 export const AboutSection: React.FC = () => (
@@ -188,7 +188,7 @@ export const AboutSection: React.FC = () => (
             onMouseEnter={e=>(e.currentTarget.style.boxShadow='var(--shadow-md)')}
             onMouseLeave={e=>(e.currentTarget.style.boxShadow='var(--shadow-sm)')}
           >
-            <Instagram size={16} style={{ color:'var(--c-taupe)' }} />
+            <InstagramIcon size={16} style={{ color:'var(--c-taupe)' }} />
             <span className="text-sm font-medium">Follow @el.nivo on Instagram</span>
           </motion.a>
         </motion.div>
